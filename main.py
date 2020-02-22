@@ -1,21 +1,3 @@
-"""
- empty = 0
- x = 1
- o = 2
- example_board_state = [1, 1, 1, 2, 0, 0, 2, 0, 2] - Depricated
- new_example_state = [[1, 1, 1],
-                      [2, 0, 0],
-                      [2, 0, 2]]
- █ █ = Current cursor location
-
-Reading order
-->          |
- x | x | x  v
-- - - - - - 
-█o█|   |  
-- - - - - - 
- o |   | o 
-"""
 from rendering import render, clear_terminal
 from getch import _Getch
 from board import Board
